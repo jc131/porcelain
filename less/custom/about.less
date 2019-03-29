@@ -1,0 +1,399 @@
+main[role="main"]{
+	// 楼层指示器开始
+	.initi{
+		width: 75%;
+		margin: 0 auto;
+		// background: pink;
+		>ul>li{
+			width: 16%;
+			height: 54px;
+			text-align: center;
+			line-height: 54px;
+			a{
+				color: #393939;
+				font-size: 20px;
+				font-weight: 600;
+			}
+			&:hover{
+				background: #33cde5;
+				a{
+					color: #fff;
+					text-decoration: none;
+					&:hover{
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+			}
+			&.bg{
+				background: #33cde5;
+				a{
+					color: #fff;
+				}
+			}
+		}
+	}
+	// 楼层指示器结束
+	// *************************************************************************?
+	// 公司简历开始
+	.company{
+		width: 75%;
+		margin: 0 auto;
+		// background: olive;
+		padding-top: 60px;
+		>p{
+			font-size: 30px;
+			color: #393939;
+			text-align: center;
+			// background: pink;
+		}
+		.companyConter{
+			>p{
+				font-size: 15px;
+				color: #393939;
+			}
+			>p:nth-child(1){
+				text-align: center;
+				color: #33cde5;
+				font-size: 20px;
+			}
+			>ul>li{
+				float:left;
+				width: 30%;
+				color: #393939;
+				font-size: 15px;
+				text-align: center;
+				margin-top: 10px;
+				b{
+					font-size: 30px;
+					color: #33cde5;
+				}
+			}
+		}
+		.companyPic{
+			padding: 30px 0 50px 0;
+		    // background: pink;
+			text-align: center;
+			div{
+				width: 50%;
+				height: 350px;
+				margin: 0 auto;
+	            overflow: hidden;
+				img{
+					width: 100%;
+					height: 100%;
+					transition: 1s;
+					&:hover{
+						transform: scale(1.2);
+					}
+				}
+			}
+		}
+	}
+	// 公司简历结束
+	// *****************************************************
+	// 业务领域开始
+	.business{
+		width: 80%;
+		// background: pink;
+		margin: 0 auto;
+		>p{
+			padding-top: 60px;
+			text-align: center;
+			font-size: 30px;
+			color: #393939;
+		}
+		>ul{
+			width: 100%;
+			// background: oldlace;
+			li{
+				float: left;
+				width: 20%;
+				height: 230px;
+				margin: 0 38px;
+				margin-top: 50px;
+				border-radius: 10px;
+				transition: 2s;
+				>div{
+					width: 50%;
+					height: 65%;
+					text-align: center;
+					color: #717171;
+					border: 1px solid #c5c5c5;
+					border-radius: 50%;
+					margin: 0 auto;
+					margin-top: 35px;
+					background: #fff;
+					img{
+						margin-top: 50px;
+						margin-bottom: 10px;
+					}
+				}
+				&:hover{
+					background: #33cde5;
+				}
+			}
+		}
+	}
+	// 业务领域结束
+	// *********************************************************
+	// 经营理念开始
+	.manage{
+		p{
+			text-align: center;
+			font-size: 30px;
+			color: #393939;
+			padding-top: 60px;
+		}
+		ul{
+			width: 100%;
+			margin-top: 20px;
+			li{
+				float: left;
+				width: 33%;
+				height: 464px;
+				background-size: cover;
+				>div{
+					display: none;
+					width: 100%;
+					height: 100%;
+					background: rgba(0, 0, 0, 0.5);
+					text-align: center;
+					img{
+						margin-top: 100px;
+					}
+					p{
+						color: #fff;
+					}
+				}
+			}
+			li:nth-child(1){
+				background: url(../img/0406266246.png) no-repeat;
+			}
+			li:nth-child(2){
+				background: url(../img/0407108411.png) no-repeat;
+			}
+			li:nth-child(3){
+				background: url(../img/0407416572.png) no-repeat;
+			}
+		}
+	}
+	// 经营理念结束
+	// ************************************************************
+	// 发展历程开始
+	
+	
+	
+	
+	// 发展历程结束
+	// ***************************************************************
+	
+	// 客户分布开始
+	.client{
+		p{
+			font-size: 30px;
+			color: #393939;
+			text-align: center;
+			padding-top: 60px;
+		}
+		div{
+			width: 30%;
+			height: 500px;
+			// background: pink;
+			margin: 0 auto;
+			position: relative;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+			dl{
+				position: absolute;
+				top: 15%;
+				right: -50%;
+				padding: 15px 30px;
+				box-shadow: 0 0 25px #ededed;
+				background: #fff;
+				border: 2px solid #ededed;
+				z-index: 100;
+				dt{
+					color: #787878;
+					font-size: 20px;
+				}
+				dd{
+					color: #333333;
+					margin-top: 10px;
+					font-size: 15px;
+				}
+				dd:nth-child(2){
+					position: relative;
+					b{
+						position: absolute;
+						top: 10%;
+						left: -28%;
+						color: #ededed;
+						font-size: 30px;
+						background: #fff;
+						z-index: 10;
+					}
+				}
+			}
+		}
+	}
+	// 客户分布结束
+	// ******************************************************
+	// 资质荣誉开始
+	.honor{
+		>p{
+			font-size: 30px;
+			color: #393939;
+			padding-top: 60px;
+			text-align: center;
+		}
+		.honorConter{
+			ul{
+				width: 60%;
+				height: 275px;
+				margin: 0 auto;
+				// background: pink;
+				margin-top: 20px;
+				>li{
+					float: left;
+					width: 30%;
+					height: 100%;
+					text-align: center;
+					background: #fff;
+					font-size: 20px;
+					color: #4d4d4d;
+					margin: 0 18px;
+					img{
+						width: 98%;
+						height: 200px;
+						margin-bottom: 30px;
+						margin-top: 2px;
+					}
+				}
+			}
+			.chaKan{
+				width: 60%;
+				margin: 0 auto;
+				// background: oldlace;
+				cursor: pointer;
+				text-align: center;
+				padding: 60px 0;
+				a{
+					display: block;
+					width: 100%;
+					color: #848484;
+					font-size: 20px;
+					text-decoration: none;
+					&:hover{
+						text-decoration: none;
+					}
+				}
+				ul{
+					display: none;
+					width: 100%;
+					height: 275px;
+					margin: 0 auto;
+					// background: pink;
+					margin-top: 20px;
+					>li{
+						float: left;
+						width: 30%;
+						height: 100%;
+						text-align: center;
+						background: #fff;
+						font-size: 20px;
+						color: #4d4d4d;
+						margin: 0 18px;
+						img{
+							width: 98%;
+							height: 200px;
+							margin-bottom: 30px;
+							margin-top: 2px;
+						}
+					}
+				}
+				b{
+					display: block;
+					width: 100%;
+					font-size: 20px;
+					color: #848484;
+				}
+			}
+		}
+	}
+	// 资质荣誉结束
+	// ?*********************************************************************
+	// 人才招聘开始
+	.recruit{
+		width: 80%;
+		// height: 500px;
+		// background: pink;
+		margin: 0 auto;
+		padding-bottom: 50px;
+		>p{
+			font-size: 30px;
+			color: #393939;
+			padding-top: 60px;
+			text-align: center;
+		}
+		>ul>li{
+// 			border: 1px solid #e1e1e1;
+// 			box-shadow: 0 0 5px #e1e1e1;
+// 			padding: 0 -5px;
+		}
+		.recruitConter{
+			.recruitConterT{
+				// height: 60px;
+				ol{
+					width: 100%;
+					>li{
+						float: left;
+						height: 60px;
+						width: 33%;
+						line-height: 60px;
+						// background: orange;
+					}
+					>li:nth-child(1){
+						font-size: 20px;
+						padding-left: 30px;
+						color: #101010;
+					}
+					>li:nth-child(2){
+						font-size: 15px;
+						padding-left: 30px;
+						color: #bcbcbc;
+						text-align: center;
+					}
+					>li:nth-child(3){
+						font-size: 15px;
+						padding-left: 30px;
+						color: #010101;
+						text-align: right;
+						
+						padding-right: 10px;
+					}
+				}
+			}
+			.recruitConterB{
+				display: none;
+				p{
+					width: 100%;
+					margin: 10px 0;
+					color: #bcbcbc;
+					padding-left: 30px;
+					&.teshu{
+						font-size: 20px;
+						color: #101010;
+						margin-top: 40px;
+					}
+				}
+				p:nth-child(1){
+					margin-top: 0px;
+				}
+			}
+		}
+	}
+	// 人才招聘结束
+}

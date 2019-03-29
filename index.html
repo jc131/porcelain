@@ -1,40 +1,361 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>青花瓷软件</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/vendor/jquery-1.11.1.min.js"></script>
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();  //没有兼容
+		</script>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+	</head>
+	<body>
+		<!-- 头开始 -->
+		<header role="banner">
+			<!-- 导航条开始 -->
+			<nav role="navigation" class="navbar navbar-static-top navbar-default nav-position">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="img/logo_03.png" />
+						</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav nav-ul">
+							<li class="active"><a href="index.html">首页</a></li>
+							<li class="move">
+								<a href="#" class="dropdown">
+									产品中心
+									<div class="xumu">
+										<p>畜牧业&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;禽行业</p>
+										<p>&lt;猪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;禽行业</p>
+										<p>&lt;牛</p>
+									</div>
+								</a>
+							</li>
+							<li><a href="html/case.html">成功案例</a></li>
+							<li><a href="#">服务与支持</a></li>
+							<li><a href="#">新闻中心</a></li>
+							<li><a href="html/about.html">关于青花瓷</a></li>
+							<li class="active">
+								<a href="#">
+									<img src="img/search_06.png" width="20px" height="18px" class="secret">
+									<img src="img/ipone_08.png" width="20px" height="18px">
+									010-62701591
+									<input type="text" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- 导航条结束 -->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+		</header>
+		<!-- 头结束 -->
+		<!-- 内容开始 -->
+		<main role="main">
+			<!-- 轮播图开始 -->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators carouselpic">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				</ol>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/banner.png" width="100%" />
+					</div>
+					<div class="item">
+						<img src="img/banner1.png" width="100%" />
+					</div>
+				</div>
+				<!-- 轮播图上的内容开始 -->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-12">
+							<div class="zhuanZhu wow bounceInDown">
+								<img src="img/bannerZi_14.png" />
+							</div>
+							<ul class="pic wow bounceInUp">
+								<li>
+									<img src="img/banner1_18.png" />
+									<p>养殖链管理</p>
+								</li>
+								<li>
+									<img src="img/banner2_18.png" />
+									<p>智慧工厂</p>
+								</li>
+								<li>
+									<img src="img/banner3_18.png" />
+									<p>供应管理</p>
+								</li>
+								<li>
+									<img src="img/banner4_18.png" />
+									<p>追溯管理</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- ,轮播图上的内容结束 -->
+				</div>
+			</div>
+			<!-- 轮播图结束 -->
+			<!-- ********************************************************************************* -->
+			<!-- 独有特质开始 -->
+			<section class="container">
+				<div class="row">
+					<div class="col-sm-12 duTe">
+						<p>独有特质</p>
+						<p>不断融合互联网新技术，适应市场新业态，推出BWP B3 第三代系统，软硬件一体化集成，</p>
+						<p>全面驱动畜牧行业向2.0时代迈进</p>
+						<ul class="scitv wow bounceInUp">
+							<li class="col-sm-4">
+								<div>
+									<img src="img/0957240498.png" />
+								</div>
+								<p>品牌保证</p>
+								<p>公司成立19年以来，与众多畜牧行业的知名百强企业合作；专注于整个畜牧行业产业链的一条龙服务</p>
+							</li>
+							<li class="col-sm-4">
+								<div>
+									<img src="img/0957396134.png" />
+								</div>
+								<p>产品亮点</p>
+								<p>BWP B3 ERP软件结合集团化产业链管理模式，实现业务的全面管理，提升整体运作效率，创造效益最大化
+								</p>
+							</li>
+							<li class="col-sm-4">
+								<div>
+									<img src="img/0957549458.png" />
+								</div>
+								<p>公司服务</p>
+								<p>通过B3系统多级别管理配置、业务流程配置、业务管控点配置等功能实现业务流程电子化，将业务流与审批流紧密的结合以形成一条完整的业务链
+								</p>
+							</li>
+						</ul>
+						<b>关于青花瓷</b>
+					</div>
+				</div>
+			</section>
+			<!-- 独有特质结束 -->
+			<!-- 解决方案开始 -->
+			<section class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12 plan">
+						<!-- 解决方案上 -->
+						<div class="planTop col-sm-12">
+							<p><b>禽类解决方案</b> <b>畜类解决方案</b></p>
+						</div>
+						<!-- 解决方案下 -->
+						<div class="planBottom col-sm-12">
+							<div class="planBottomConter ">
+								<ul class="wow bounceInUp">
+									<li>
+										<div>
+											<span><img src="img/1003598769.png"/>家禽供应链管理系统</span>
+											<div class="mouse">
+												<img src="img/1003598769.png"/>家禽供应链管理系统
+												<p>青花瓷商品代管理系统是在积累多年的行业经验后，运用先进的技术平台架构，专门针对农牧业养殖管理业务开发的管理软件。此系统主要适用于农牧行业禽类（含鸡、鸭等）饲养管理的全过程、多维度的养殖管理业务.<br/><b class="glyphicon glyphicon-arrow-right"></b></p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div>
+											<span><img src="img/1004221935.png"/>家禽生产管理系统</span>
+											<div class="mouse">
+												<img src="img/1004221935.png"/>家禽生产管理系统
+												<p>青花瓷祖代及父母代种禽管理系统以科学养殖和过程管控为主要设计理念，依托青花瓷多年畜牧养殖行业经验，结合众多行业龙头最佳应用实践，帮助客户构建养殖信息化解决方案.<br/><b class="glyphicon glyphicon-arrow-right"></b></p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div>
+											<span><img src="img/1004345153.png"/>家禽养殖链管理系统</span>
+											<div class="mouse">
+												<img src="img/1004345153.png"/>家禽养殖链管理系统
+												<p>产品管理覆盖从批次种禽到引种育雏、育成、产蛋直至批次淘汰和种蛋孵化全过程，涉及禽舍环境、免疫、用药、检验、饲喂、体重、产蛋、孵化等相关生产管理.<br/><b class="glyphicon glyphicon-arrow-right"></b></p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div>
+											
+											<span><img src="img/1004473322.png"/>家禽追溯管理系统</span>
+											<div class="mouse">
+												<img src="img/1004473322.png"/>家禽供追溯管理系统
+												<p>青花瓷软件(北京)有限公司是专业从事肉食品行业管理软件研发的高新技术企业，多年以来一直致力于农牧企业的信息化建设，开发了BWP B3 ERP管理软件。BWP B3 ERP不仅体现南北管理差异，而且以行业先进管理经验为精髓，贯穿畜禽行业典型业务版块的管理。<br/><b class="glyphicon glyphicon-arrow-right"></b></p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- 解决方案下结束 -->
+						<!-- 解决方案下 -->
+						
+						<!-- 解决方案下结束 -->
+					</div>
+				</div>
+			</section>
+			<!-- 解决方案结束 -->
+			<!-- 合作伙伴开始 -->
+			<section class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="cooperation">
+							<p>合作伙伴</p>
+							<p>以行业先进管理经验为精髓，贯穿畜禽行业典型业务版块的管，200余家企业的共同选择</p>
+							<div class="cooperationConter wow bounceInUp">
+								<ul>
+									<li>
+										<img src="img/1.png"/>
+									</li>
+									<li>
+										<img src="img/2.png"/>
+									</li>
+									<li>
+										<img src="img/3.png"/>
+									</li>
+									<li>
+										<img src="img/4.png"/>
+									</li>
+									<li>
+										<img src="img/5.png"/>
+									</li>
+									<li>
+										<img src="img/6.png"/>
+									</li>
+									<li>
+										<img src="img/7.png"/>
+									</li>
+									<li>
+										<img src="img/8.png"/>
+									</li>
+									<li>
+										<img src="img/9.png"/>
+									</li>
+									<li>
+										<img src="img/10.png"/>
+									</li>
+									<li>
+										<img src="img/11.png"/>
+									</li>
+									<li>
+										<img src="img/12.png"/>
+									</li>
+									<li>
+										<img src="img/13.png"/>
+									</li>
+									<li>
+										<img src="img/14.png"/>
+									</li>
+									<li>
+										<img src="img/15.png"/>
+									</li>
+									<li>
+										<img src="img/16.png"/>
+									</li>
+									<li>
+										<img src="img/17.png"/>
+									</li>
+									<li>
+										<img src="img/18.png"/>
+									</li>
+								</ul>
+							</div>
+							<b>查看更多</b>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 合作伙伴结束 -->
+		</main>
+		<!-- 内容结束 -->
+		<!-- footer开始 -->
+		<footer role="contentinfo">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="footer col-lg-12 col-md-12 col-sm-12">
+						<div class="footerConter">
+							<div class="footerConterTop col-lg-12 col-md-12 col-sm-12">
+								<dl>
+									<dt>友情链接<b class="glyphicon glyphicon-triangle-right"></b></dt>
+									<dd><a href="#">首页</a></dd>
+									<dd><a href="#">产品中心</a></dd>
+									<dd><a href="#">成功案例</a></dd>
+									<dd><a href="#"> 服务与支持</a></dd>
+									<dd><a href="#">新闻中心</a></dd>
+									<dd><a href="#">关于青花瓷</a></dd>
+								</dl>
+							</div>
+							<div class="footerConterBottom">
+								<div class="col-lg-3 col-md-12 col-xs-12 picbottom">
+									<img src="img/logo1_06.png"/>
+								</div>
+								<div class="conter_fcb col-lg-3 col-md-4 col-xs-4">
+									<p><img src="img/dingwei_38.png" >北京市海淀区中科科仪5号楼309</p>
+									<p><img src="img/ipone1_38.png" >010-62701591</p>
+								</div>
+								<div class="col-lg-3 col-md-4 col-xs-4 conter_fcb">
+									<p>联系我们｜网站地图｜京公网安备 110108008201号</p>
+									<p>© 2011-2016 青花瓷软件（北京）有限公司 京ICP备11005884号</p>
+								</div>
+								<div class="col-lg-3 col-md-4 col-xs-4 conter_fcb">
+									<img src="img/1108078410.jpg"/ width="100px" height="100px">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer结束 -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+
+
+
+
+
+
+
+
+
+		<script src="js/vendor/jquery-1.11.1.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js">')
+		</script>
+		</script>
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+		<!-- <script>
+			var _gaq = [
+				['_setAccount', 'UA-XXXXX-X'],
+				['_trackPageview']
+			];
+			(function(d, t) {
+				var g = d.createElement(t),
+					s = d.getElementsByTagName(t)[0];
+				g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+				s.parentNode.insertBefore(g, s)
+			}(document, 'script'));
+		</script> -->
+	</body>
 </html>
